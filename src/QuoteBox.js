@@ -15,7 +15,7 @@ const QuoteBox = ()=>{
     }
     
     const [ quote, setQuote] = useState(quo.quotes[getRandom()]);
-    const [ color, setColor] = useState(getColor())
+    const [ setColor] = useState(getColor())
 
     const handleQuote=()=> {
         setQuote(quo.quotes[getRandom()])
